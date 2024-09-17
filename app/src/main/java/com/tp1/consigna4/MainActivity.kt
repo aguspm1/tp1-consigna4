@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
                     } else {
                         val edadNumero = edad.toIntOrNull()
                         if (edadNumero == null || edadNumero <= 0) {
-                            Toast.makeText(this, "La edad no puede ser 0", Toast.LENGTH_SHORT)
+                            Toast.makeText(tHis, "La edad no puede ser 0", Toast.LENGTH_SHORT)
                                 .show()
                         } else {
                             tvMensaje.text =
