@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
                                 .show()
                         } else {
                             tvMensaje.text =
-                                "Hola, $nombre, su edad es $edad su direccion es $direccion"
+                                ("Hola, $nombre, su edad es $edad su direccion es $direccion")
 
                             }
                         }
